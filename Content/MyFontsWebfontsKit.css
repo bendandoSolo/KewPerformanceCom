@@ -1,0 +1,83 @@
+/* @license
+ * MyFonts Webfont Build ID 2625294, 2013-08-20T06:01:33-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Proxima Nova A Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-bold/
+ * Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * Licensed pageviews: 1,000,000
+ * 
+ * Webfont: Proxima Nova S Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-regular/
+ * Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * Licensed pageviews: 1,000,000
+ * 
+ * Webfont: Proxima Nova S Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/s-bold/
+ * Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * Licensed pageviews: 1,000,000
+ * 
+ * Webfont: Proxima Nova A Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/a-regular/
+ * Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * Licensed pageviews: 1,000,000
+ * 
+ * Webfont: Proxima Nova Regular by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
+ * Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * Licensed pageviews: 1,000,000
+ * 
+ * Webfont: Proxima Nova Bold by Mark Simonson
+ * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
+ * Copyright: Copyright (c) Mark Simonson, 2005. All rights reserved.
+ * Licensed pageviews: 1,000,000
+ * 
+ * Webfont: Adelle Bold by TypeTogether
+ * URL: http://www.myfonts.com/fonts/type-together/adelle/bold/
+ * Copyright: Copyright (c) 2009 by TypeTogether. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * Webfont: Adelle Bold Italic by TypeTogether
+ * URL: http://www.myfonts.com/fonts/type-together/adelle/bold-italic/
+ * Copyright: Copyright (c) 2009 by TypeTogether. All rights reserved.
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=2625294
+ * 
+ * © 2013 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/280f0e");
+
+  
+@font-face {font-family: 'ProximaNovaA-Bold';src: url('webfonts/280F0E_0_0.eot');src: url('webfonts/280F0E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/280F0E_0_0.woff') format('woff'),url('webfonts/280F0E_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-Regular';src: url('webfonts/280F0E_1_0.eot');src: url('webfonts/280F0E_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/280F0E_1_0.woff') format('woff'),url('webfonts/280F0E_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaS-Bold';src: url('webfonts/280F0E_2_0.eot');src: url('webfonts/280F0E_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/280F0E_2_0.woff') format('woff'),url('webfonts/280F0E_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNovaA-Regular';src: url('webfonts/280F0E_3_0.eot');src: url('webfonts/280F0E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/280F0E_3_0.woff') format('woff'),url('webfonts/280F0E_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-Regular';src: url('webfonts/280F0E_4_0.eot');src: url('webfonts/280F0E_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/280F0E_4_0.woff') format('woff'),url('webfonts/280F0E_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ProximaNova-Bold';src: url('webfonts/280F0E_5_0.eot');src: url('webfonts/280F0E_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/280F0E_5_0.woff') format('woff'),url('webfonts/280F0E_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Adelle-Bold';src: url('webfonts/280F0E_6_0.eot');src: url('webfonts/280F0E_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/280F0E_6_0.woff') format('woff'),url('webfonts/280F0E_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Adelle-BoldItalic';src: url('webfonts/280F0E_7_0.eot');src: url('webfonts/280F0E_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/280F0E_7_0.woff') format('woff'),url('webfonts/280F0E_7_0.ttf') format('truetype');}
+ 

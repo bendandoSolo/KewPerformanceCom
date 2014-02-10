@@ -1,0 +1,1532 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width:100%;
+}
+
+/*
+	Dreamweaver Fluid Grid Properties
+	----------------------------------
+	dw-num-cols-mobile:		6;
+	dw-num-cols-tablet:		6;
+	dw-num-cols-desktop:	12;
+	dw-gutter-percentage:	35;
+	
+	Inspiration from "Responsive Web Design" by Ethan Marcotte 
+	http://www.alistapart.com/articles/responsive-web-design
+	
+	and Golden Grid System by Joni Korpi
+	http://goldengridsystem.com/
+*/
+
+/* Mobile Layout: 480px and below. */
+
+.gridContainer {
+	width: 100%;
+
+}
+#blogContainer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.blogPost {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#navigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#homeImage {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#about {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#aboutL {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#services {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#personalTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#boxingTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#groupTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#testimonialCarousel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#getInTouch {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bookNow, #bookNow2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#Icarousel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#iCarouselM
+{
+    clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tCarousel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#dropDownNavigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bnText {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.abText {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bookh1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bnh1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bnh2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#linksBar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#linksBar1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#linksBar2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#linksBar3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#about2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pTraining2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#testimonialMobile {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#linksBar4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#carousel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bTrainng2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gTraining2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pTraining3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bTraining3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gTraining3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bTraining2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tmContainer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#qM1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 12.9032%;
+	display: block;
+}
+#qMobile {
+	clear: none;
+	float: left;
+	margin-left: 4.5161%;
+	width: 65.1612%;
+	display: block;
+}
+#qM2 {
+	clear: none;
+	float: left;
+	margin-left: 4.5161%;
+	width: 12.9032%;
+	display: block;
+}
+.tContainer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.qmT1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 12.9032%;
+	display: block;
+}
+.tQuote {
+	clear: none;
+	float: left;
+	margin-left: 4.5161%;
+	width: 65.1612%;
+	display: block;
+}
+#qT2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.qmT2 {
+	clear: none;
+	float: left;
+	margin-left: 4.5161%;
+	width: 12.9032%;
+	display: block;
+}
+#tHeader {
+	clear: both;
+	float: left;
+	margin-left: 17.4193%;
+	width: 65.1612%;
+	display: block;
+}
+#tWrapper {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#contactLeon {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#facilities1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#facilities2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#leonImg {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#leonDetails {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#map1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tLocation1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#map2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tLocation2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tLocation2Mobile {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#contactWrapper {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#contactHeader {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#facilitiesHeader {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 651px) {
+.gridContainer {
+	width: 100%;
+}
+
+.blogPost {
+	clear: both;
+	float: left;
+	margin-left: 17.4193%;
+	width: 65.1612%;
+	display: block;
+}
+
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#navigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#homeImage {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#about {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#aboutL {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#services {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#personalTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#boxingTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#groupTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#testimonialCarousel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#getInTouch {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bookNow, #bookNow2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 30.3225%;
+	display: block;
+}
+#bTraining {
+	clear: none;
+	float: left;
+	margin-left: 4.5161%;
+	width: 30.3225%;
+	display: block;
+}
+#gTraining {
+	clear: none;
+	float: left;
+	margin-left: 4.5161%;
+	width: 30.3225%;
+	display: block;
+}
+#Icarousel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tCarousel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#dropDownNavigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bnText {
+	clear: both;
+	float: left;
+	margin-left: 17.4193%;
+	width: 65.1612%;
+	display: block;
+}
+.abText {
+	clear: both;
+	float: left;
+	margin-left: 17.4193%;
+	width: 65.1612%;
+	display: block;
+}
+#bookh1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bnh1 {
+	clear: both;
+	float: left;
+	margin-left: 17.4193%;
+	width: 65.1612%;
+	display: block;
+}
+#bnh2 {
+	clear: both;
+	float: left;
+	margin-left: 17.4193%;
+	width: 65.1612%;
+	display: block;
+}
+#linksBar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#linksBar1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 30.3225%;
+	display: block;
+}
+#linksBar2 {
+	clear: none;
+	float: left;
+	margin-left: 4.5161%;
+	width: 30.3225%;
+	display: block;
+}
+#linksBar3 {
+	clear: none;
+	float: left;
+	margin-left: 4.5161%;
+	width: 30.3225%;
+	display: block;
+}
+#about2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pTraining2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#testimonialMobile {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#linksBar4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#carousel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bTrainng2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gTraining2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pTraining3 {
+	clear: both;
+	float: left;
+	margin-left: 17.4193%;
+	width: 65.1612%;
+	display: block;
+}
+#bTraining3 {
+	clear: both;
+	float: left;
+	margin-left: 17.4193%;
+	width: 65.1612%;
+	display: block;
+}
+#gTraining3 {
+	clear: both;
+	float: left;
+	margin-left: 17.4193%;
+	width: 65.1612%;
+	display: block;
+}
+#bTraining2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tmContainer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#qM1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#qMobile {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#qM2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.tContainer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.qmT1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 12.9032%;
+	display: block;
+}
+.tQuote {
+	clear: none;
+	float: left;
+	margin-left: 4.5161%;
+	width: 65.1612%;
+	display: block;
+}
+#qT2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.qmT2 {
+	clear: none;
+	float: left;
+	margin-left: 4.5161%;
+	width: 12.9032%;
+	display: block;
+}
+#tHeader {
+	clear: both;
+	float: left;
+	margin-left: 34.8387%;
+	width: 30.3225%;
+	display: block;
+}
+#tWrapper {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#contactLeon {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#facilities1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 47.7419%;
+	display: block;
+}
+#facilities2 {
+	clear: none;
+	float: left;
+	margin-left: 4.5161%;
+	width: 47.7419%;
+	display: block;
+}
+#leonImg {
+	clear: both;
+	float: left;
+	margin-left: 17.4193%;
+	width: 30.3225%;
+	display: block;
+}
+#leonDetails {
+	clear: both;
+	float: left;
+	margin-left: 34.8387%;
+	width: 30.3225%;
+	display: block;
+}
+#map1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tLocation1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#map2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tLocation2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tLocation2Mobile {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#contactWrapper {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#contactHeader {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#facilitiesHeader {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+/* Desktop Layout: 769px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) 
+{
+.blogPost {
+	clear: both;
+	float: left;
+	margin-left: 25.552%;
+	width: 48.8958%;
+	display: block;
+}
+    
+    
+.gridContainer {
+	width: 100%;
+}
+#LayoutDiv1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#navigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#homeImage {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#about {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#aboutL {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#services {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#personalTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#boxingTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#groupTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#testimonialCarousel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#getInTouch {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#footer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#header {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bookNow, #bookNow2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pTraining {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 31.8611%;
+	display: block;
+}
+#bTraining {
+	clear: none;
+	float: left;
+	margin-left: 2.2082%;
+	width: 31.8611%;
+	display: block;
+}
+#gTraining {
+	clear: none;
+	float: left;
+	margin-left: 2.2082%;
+	width: 31.8611%;
+	display: block;
+}
+#Icarousel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tCarousel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#dropDownNavigation {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bnText {
+	clear: both;
+	float: left;
+	margin-left: 17.0347%;
+	width: 65.9305%;
+	display: block;
+}
+.abText {
+	clear: both;
+	float: left;
+	margin-left: 17.0347%;
+	width: 65.9305%;
+	display: block;
+}
+#bookh1 {
+	clear: none;
+	float: left;
+	margin-left: 27.7602%;
+	width: 31.8611%;
+	display: block;
+}
+#bnh1 {
+	clear: both;
+	float: left;
+	margin-left: 34.0694%;
+	width: 31.8611%;
+	display: block;
+}
+#bnh2 {
+	clear: both;
+	float: left;
+	margin-left: 25.552%;
+	width: 48.8958%;
+	display: block;
+}
+#linksBar {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#linksBar1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 31.8611%;
+	display: block;
+}
+#linksBar2 {
+	clear: none;
+	float: left;
+	margin-left: 2.2082%;
+	width: 31.8611%;
+	display: block;
+}
+#linksBar3 {
+	clear: none;
+	float: left;
+	margin-left: 2.2082%;
+	width: 31.8611%;
+	display: block;
+}
+#about2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pTraining2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#testimonialMobile {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#linksBar4 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#carousel {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#bTrainng2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#gTraining2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#pTraining3 {
+	clear: both;
+	float: left;
+	margin-left: 17.0347%;
+	width: 65.9305%;
+	display: block;
+}
+#bTraining3 {
+	clear: both;
+	float: left;
+	margin-left: 17.0347%;
+	width: 65.9305%;
+	display: block;
+}
+#gTraining3 {
+	clear: both;
+	float: left;
+	margin-left: 17.0347%;
+	width: 65.9305%;
+	display: block;
+}
+#bTraining2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tmContainer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#qM1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#qMobile {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#qM2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.tContainer {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.qmT1 {
+	clear: both;
+	float: left;
+	margin-left: 17.0347%;
+	width: 6.3091%;
+	display: block;
+}
+.tQuote {
+	clear: none;
+	float: left;
+	margin-left: 2.2082%;
+	width: 48.8958%;
+	display: block;
+}
+#qT2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.qmT2 {
+	clear: none;
+	float: left;
+	margin-left: 2.2082%;
+	width: 6.3091%;
+	display: block;
+}
+#tHeader {
+	clear: both;
+	float: left;
+	margin-left: 34.0694%;
+	width: 31.8611%;
+	display: block;
+}
+#tWrapper {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#contactLeon {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#facilities1 {
+	clear: both;
+	float: left;
+	margin-left: 17.0347%;
+	width: 31.8611%;
+	display: block;
+}
+#facilities2 {
+	clear: none;
+	float: left;
+	margin-left: 2.2082%;
+	width: 31.8611%;
+	display: block;
+}
+#leonImg {
+	clear: both;
+	float: left;
+	margin-left: 17.0347%;
+	width: 31.8611%;
+	display: block;
+}
+#leonDetails {
+	clear: both;
+	float: left;
+	margin-left: 34.0694%;
+	width: 31.8611%;
+	display: block;
+}
+#map1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tLocation1 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#map2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tLocation2 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#tLocation2Mobile {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#contactWrapper {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#contactHeader {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+#facilitiesHeader {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+
+@media only screen and (min-width: 481px) {
+
+#pTraining3, #gTraining3, #bTraining3 {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+}
+@media only screen and (min-width: 890px) {
+
+#pTraining3, #gTraining3, #bTraining3 {
+	clear: both;
+	float: left;
+	margin-left: 17.0347%;
+	width: 65.9305%;
+	display: block;
+	}
+	}
+
+.t3Img {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+.t3Back {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.t3Txt {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+
+@media only screen and (min-width: 481px) {
+.t3Img {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 47.7419%;
+	display: block;
+}
+
+.t3Back {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.t3Txt {
+	clear: none;
+	float: left;
+	margin-left: 0;
+	width: 51.1042%;
+	display: block;
+}
+
+}
+
+@media only screen and (min-width: 769px) {
+.t3Img {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 48.8958%;
+	display: block;
+}
+
+.t3Back {
+	clear: both;
+	float: left;
+	margin-left: 0;
+	width: 100%;
+	display: block;
+}
+.t3Txt {
+	clear: none;
+	float: left;
+	margin-left: 0;
+	width: 51.1042%;
+	display: block;
+}
+
+}

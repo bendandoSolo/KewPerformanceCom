@@ -1,0 +1,478 @@
+@charset "utf-8";
+/* CSS Document */
+/* Reset Rules */
+html,body,h1,h2,h3,h4,h5,h6,p,ol,ul,li,img{
+	margin:0;
+	padding:0;
+}
+img{border:none;}
+ul,ol{list-style-type:none;}
+h1,h2,h3,h4,h5,h6{
+	font-size:1em;
+	font-weight:400;
+	font-family:'Adelle-Bold',Arial, Helvetica, sans-serif;
+}
+body{
+	font-family:'ProximaNova-Regular',Arial, Helvetica, sans-serif;
+	color: #000;
+	background-color: #fff;
+	font-size: 100%;
+}
+/* Reset rules for tables */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th {
+	text-align:left;
+	font-weight:400;
+}
+a:focus, a:active, 
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+    border: 0;
+    outline : 0;
+}
+/* Background & text Colour */
+#header, #footer, #getInTouch{
+	background-color: #303033;
+	}
+#header h1{color:white;}
+#header h2{
+	color:#D7AF00;
+	font-weight:bold;
+	} 
+#footer p, #getInTouch p, #getInTouch h2{color:white;}
+#bookNow, #bookNow2{
+	background-color:  #D7AF00;
+	-moz-box-shadow: 0 0 20px  #303033;
+	-webkit-box-shadow: 0 0 20px  #303033;
+	box-shadow: 0 0 20px  #303033;
+	clear:both;
+	overflow:hidden;
+  }
+#services{
+	background-color: #EFEFEF;
+	background-image: -webkit-gradient(top, #DCDCDC 0%, #EFEFEF 8%, #EFEFEF 96%, #DCDCDC 100% );
+	background-image: -webkit-linear-gradient(top, #DCDCDC 0% ,#EFEFEF 8%, #EFEFEF 92%, #DCDCDC 100% );
+	background-image: -moz-linear-gradient(top, #DCDCDC 0%, #EFEFEF 8%,  #EFEFEF 92%,#DCDCDC 100% );
+	background-image: -o-linear-gradient(top, #DCDCDC 0%, #EFEFEF 8%,  #EFEFEF 92%, #DCDCDC 100% );
+	background-image: linear-gradient(top, #DCDCDC 0%,  #EFEFEF 8%, #EFEFEF 92%, #DCDCDC 100% ); 
+	}	
+#footer{border-top: solid 2px white;}
+/*styling generic*/
+h1, h2, h3{
+	text-align:center;
+	}
+#header h1{
+	padding: 1.5em 0 0.25em 0;	
+	font-size:1.8em;
+	}
+#header h2{
+	padding-bottom:1.5em;
+	font-size:1.5em;
+	font-weight:normal;
+	font-family:'ProximaNova-Regular';
+	padding-top:0.25em;
+	}
+h2{font-size:1.1em;}	
+#getInTouch p{text-align:center;}
+#about{text-align:center;}
+#about p{margin-bottom:1em;}
+#services p{
+	text-align:center;
+	margin-bottom:1em;
+	}
+#services h2{
+	padding: 1em 0 1em 0;
+	font-size:1.35em;
+	}
+#services h3{
+	padding:1em 0 1em 0;
+	font-size:1.1em;
+	}
+#tCarousel h2, #about h2{
+	font-size:1.35em;
+	margin:1em 0 1em 0;
+	}
+.findOutMore{
+	text-align:center;
+	color:white;
+	background-color:#D7AF00;
+	text-decoration:none;
+	font-family:'ProximaNova-Bold';
+	font-size:1.2em;
+	}
+.findOutMoreP, .findOutMoreMobile{
+	padding:0.5em;
+	margin-bottom:1em;
+	font-family:'ProximaNova-Bold';
+	}
+.findOutMoreMObile{
+	font-size:0.7em;
+	}	
+#eLink{
+	overflow:hidden;
+	width:150px;
+	margin:0 auto;
+	margin-top:1em;
+	}
+#footer p{
+	text-align:center;
+	margin-bottom:2em;
+	margin-top:1em;
+	}
+#bookNow p, #bookNow2 p{
+	text-align:center;
+	color:white;
+	}		
+.bookNow{
+	text-align:center;
+	color:white;
+	background-color: #303033;
+	text-decoration:none;
+	font-family:'ProximaNova-Bold';
+
+	}
+#tCarousel p{text-align:center;	}
+.ourSuccess{
+	text-align:center;
+	text-decoration:none;
+	background-color: #DCDCDC;
+	color:white;
+	font-family:'ProximaNova-Bold';
+	font-size:1.3em;
+	}
+address{
+	font-style: normal;
+	margin: 1em 0 1em 0;
+	}
+#getInTouch h2{
+	margin:1em 0 1em 0;
+	font-size:1.5em;
+	font-weight:bold;
+	}
+#eLink{margin-bottom:1em;}
+.bookNowH {
+	font-weight:bold;
+	padding-top:0;
+	margin:0;
+	font-size:1.5em;
+	color:white;
+	}
+#bnText p{margin:1em 0 1em 0;}
+#bnh1{margin-top: 1em;}
+.tContainer{text-align:center;	}
+#tWrapper{margin-bottom:2em;}	
+.attribution{
+	margin:2em 0 0 0;
+	font-family:'ProximaNova-Regular';
+	}
+ .attributionMobile{
+	margin:1.5em 0 0 0;
+	font-family:'ProximaNova-Regular';
+	}
+.tQuoteP, .testimonialMobile{
+	font-style:italic;
+	font-family:'ProximaNova-Regular';
+	}
+.tQuoteP{padding-top:2em;}
+#tHeader{
+	margin-top:1em;
+	font-size:1.35em;
+	}
+ #qM1, #qM2{
+	font-size:5em;
+	color: #DCDCDC;
+	}
+.qmT1, .qmT2{
+	font-size:7em;
+	color: #DCDCDC;
+	}
+.qmT1, #qM1{
+	text-align:right;
+	}
+.qmT2, #qM2{
+	text-align:left;
+	}	
+#contactWrapper{
+	font-family:'ProximaNova-Regular';
+	text-align:center;	
+	margin: 1em 0 3em 0;
+	}
+#contactWrapper h2{
+	margin: 0.25em 0 1em 0;
+	font-size:1.35em;
+}
+#tLocation1, #tLocation2{margin-bottom:2em;}
+.map{margin-top:1.5em;}
+.mapLink{
+	text-align:center;
+	color:white;
+	background-color:#D7AF00;
+	text-decoration:none;
+	font-family:'ProximaNova-Bold';
+	}
+#contactLeon{margin-bottom:1em;}		
+/* Images */
+.servicesImg{
+	width: 100%;
+	overflow:hidden;
+	}
+.triangle {padding-bottom:0.2em;padding-left:0.5em;}
+/* Navigation */
+/* Drop Down menu */
+.nav-button { display: none; }
+
+@media only screen and (min-width: 0px) and (max-width: 651px) {
+/* Navigation Button */
+#dropDownNavigation{position:relative;}
+
+.nav-button {
+	display: block;
+	position: absolute;
+	top:0;
+	width: 100%;
+	height: 50px;
+	cursor: pointer;
+	border: 0 none;
+	z-index: 999;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin:0;
+	color: #303033;
+	background-color:#EFEFEF;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'ProximaNova-Bold';
+	text-align:center;
+	border-bottom: 1px solid;
+}
+.nav-button.open {
+	background-size: 21px, 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 21px, 100%;
+}
+/* Navigation Bar */
+.primary-nav {
+	width: 100%;
+	float: none;
+	background-color: white; /* change the menu color */
+	display: block;
+	height: 50px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	box-shadow: 0 1px 2px rgba(0,0,0,.6);
+	z-index: 998;
+	clear:both;	
+}
+.primary-nav li {
+	display: none;
+	width: 100%;
+	font-family: 'ProximaNova-Bold';
+}
+.primary-nav li a {
+	display: block;
+	width: 90%;
+	padding: 10px 5%;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom: 1px solid ;
+	border-top: 1px solid rgba(255,255,255,.1); 
+	color:#303033;
+	text-align:center;
+	background-color:#EFEFEF;
+}
+.primary-nav li a:hover {
+	background-color: white;
+}
+.primary-nav > li:first-child {
+	border-top: 1px solid rgba(0,0,0,.2);
+}
+/* Toggle the navigation bar open  */
+.primary-nav.open { 
+	height: auto; 
+	padding-top: 50px;
+}
+.primary-nav.open li { 
+	display: block; 
+}
+}
+
+#linksBar {display:none;}	
+#navigation{display:none;}
+#footerNavigation{
+  overflow:hidden;
+  clear:both;
+  text-align:center;
+  margin:2em 0 0 0;  
+  font-family:'ProximaNova-Bold';
+}
+#footerNavigation ul li{
+	list-style-type:none;
+	display:inline;
+	border-right:solid 2px white;
+	padding: 0 1em 0 1em;
+	font-size:1.1em;
+}
+#footerNavigation ul li:last-child{border-right: 0}
+#footerNavigation li{
+	text-decoration:none;
+	color:white;	
+}
+#footerNavigation ul li a{
+	text-decoration:none;
+	color:white;
+	padding-left:2px;	
+}
+
+@media only screen and (min-width: 651px) {
+#dropDownNavigation{display:none;}		
+#linksBar {display:block;}
+.findOutMoreMobile{display:none;}			
+#navigation{
+  display: block;
+  overflow:hidden;
+  clear:both;
+  text-align:center;
+  margin: 1em 0 1em 0; 
+  font-family:'ProximaNova-Bold';
+
+}
+#navigation ul li{
+	list-style-type:none;
+	display:inline;
+	border-right:solid 2px #303033;
+	padding: 0 1em 0 1em;
+}
+#navigation ul li:last-child{border-right: 0}
+#navigation li{
+	text-decoration:none;
+	color:#303033;	
+}
+#navigation ul li a{
+	text-decoration:none;
+	color:#303033;
+}	
+}
+
+
+@media only screen and (min-width: 651px) {
+#navigation{
+  overflow:hidden;
+  clear:both;
+  text-align:center;
+  margin: 1em 0 1em 0;   
+}
+#navigation ul li{
+	list-style-type:none;
+	display:inline;
+	border-right:solid 2px #303033;
+}
+#navigation ul li:last-child{
+	border-right: 0
+}
+#navigation li{
+	text-decoration:none;
+	color:#303033;	
+}
+#navigation ul li a{
+	text-decoration:none;
+	color:#303033;
+}	
+}
+/* Links */		
+a {padding:0.2em 0.8em 0.2em 0.8em;}
+a:hover{color:white;}
+a:visited{color:white;}
+#bdLink{text-decoration:none;color:White;}
+
+#blogContainer a {padding:0; color:#303033;}
+#blogContainer a:hover{color:#303033;}
+#blogContainer a:visited{color:#303033;}
+/* additional Layout*/
+#linksBar{
+	clear:both;
+	overflow:hidden;
+	}
+#linksBar4{
+	margin-top:1em;
+	}
+#iCarousel{
+	clear:both;
+	margin: 0 auto;
+	}	
+#dropDownNavigation{
+	clear:both;
+	overflow:hidden;
+}	
+/* Typography resizing */
+@media only screen and (max-width: 651px) {
+body {font-size: 80%; }
+p {margin: 0 5% 0 5%;}
+.servicesImg p{margin: 0 10% 0 10%;}
+#bnText p{margin:1em 5% 1em 5%;}
+}
+@media only screen and (min-width: 651px) {body {font-size:90%;}}
+@media only screen and (min-width: 1050px) {body {font-size: 110%;}}
+/* Hide & Show Content */
+#about2{
+	display:none;
+	text-align:center;
+	}
+#about2 p{
+	margin-bottom:1em;
+	}
+#about2 h2{
+	font-size:1.5em;
+	margin:1em 0 1em 0;
+	}
+#pTraining2{display:none;}
+#bTraining2{display:none;}
+#gTraining2{display:none;}
+#pTraining3{display:none; }
+#bTraining3{display:none; }
+#gTraining3{display:none; }	
+@media only screen and (max-width: 651px) {#Hcarousel {display:none;} #iCarousel{display:none;} #bookNow2 {display:none;}.blogPost{border-top: 1px solid white;}	}
+@media only screen and (min-width: 651px) 
+{
+#iCarouselM{display:none;}
+.testimonialMobile {display:none;}
+.attributionMobile {display:none;}
+#qM1, #qM2{display:none;}
+#Hcarousel {display:block; }
+.blogPost{border-top: 1px solid #DCDCDC;border-bottom:1px solid #DCDCDC;}
+}
+
+@media only screen and (max-width: 651px) {.triangle{display:none;} }	
+@media only screen and (max-width: 1050px) {.triangle{display:none;} }
+
+#blogContainer{margin-top:1em; margin-bottom:3em;}
+	#blogContainer h2{padding: 0 0 1em 0;font-size:1.35em;margin-top:0.25em;}
+	.blogPost{text-align:center;margin-bottom:2em;padding: 1em 0 1em 0;}
+	.blogTitle{margin-bottom: 1em;font-family:'ProximaNova-Bold';}
+	.blogText{font-family:'ProximaNova-Regular';}
+	.blogAttribution{margin-top:1em;font-family:'ProximaNova-Regular';color:#DCDCDC;}
+
+.t3Img, .t3Txt{margin:0em 0 1em 0;}
+.t3Back{margin-top:1em;}
+.t3Txt p{margin:1em 0.5em 0 0.5em;}
+
+.t3Img{margin-top:1em;}
+
+#bnText{font-size:1em;}
+
+#bookNow a{font-size:1.2em;}
+
+#facilitiesHeader{margin-top:1.5em;}
+
+
+
+

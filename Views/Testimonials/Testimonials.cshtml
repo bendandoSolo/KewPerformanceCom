@@ -1,0 +1,155 @@
+﻿@{
+    ViewBag.Title = "Leon Kew | Testimonials";
+}
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Leon Kew | Testimonials</title>
+<meta name="description" content="Kew Performance. Leon Kew is a professional Personal Trainer. Leon Kew offers a range of services including personal trianing, group training and boxing training" />
+<link href="@Url.Content("~/Content/css/boilerplate.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/css/layout.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/css/style.css")" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="@Url.Content("~/Content/css/flexslider.css")" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/MyFontsWebfontsKit.css")" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="@Url.Content("~/Scripts/respond.min.js")" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">      window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+<script defer src="@Url.Content("~/Scripts/jquery.flexslider.js")" type="text/javascript"></script>
+<script  src="@Url.Content("~/Scripts/OurJScript.js")" type="text/javascript"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+	<div id="header"> 
+    	<h1>LEON KEW</h1>
+    	<h2>PERSONAL TRAINER AND CONDITIONING COACH</h2>
+    </div>
+	<div id="navigation">
+		<ul>
+		    <li>@Html.ActionLink("SERVICES","Index","Home")</li>
+            <li>@Html.ActionLink("BLOG","Blog","Blog")</li>
+            <li>@Html.ActionLink("TESTIMONIALS","Testimonials","Testimonials")</li>
+            <li>@Html.ActionLink("CONTACT","Contacts","Contacts")</li>
+		</ul>
+    </div>
+    <div id="dropDownNavigation">    	
+    	<button class="nav-button">MENU</button>
+		<ul class="primary-nav">
+			<li>@Html.ActionLink("SERVICES","Index","Home")</li>
+            <li>@Html.ActionLink("BLOG","Blog","Blog")</li>
+            <li>@Html.ActionLink("CONTACT","Contacts","Contacts")</li>
+		</ul>
+    </div>
+	<div id="bookNow2">
+		<div id="bnh1"><h2 class="bookNowH">BOOK YOUR FREE</h2></div>
+        <div id="bnh2"><h2 class="bookNowH">CONSULTATION TODAY!</h2></div>
+        <div id="bnText">
+    	<p>At Kew performance we take a holistic approach to training our clients. We will start with a consultation to determine goals, exercise history and current physical condition. Get in touch to book your free consultation today.</p>
+        <p class="findOutMoreP" ><a href="mailto:leon@kewperformance.co.uk" class="bookNow">BOOK NOW <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon"></a> </p> 
+    	</div>
+      </div>
+      <div id="tHeader"> <h2>TESTIMONIALS</h2></div>
+    <div id="tWrapper">
+    <div class="tContainer">
+       	<div class="qmT1"><p>“</p></div>
+        <div class="tQuote"><p class="tQuoteP">Exercise for me should be enjoyable and rewarding, otherwise I`ll find an excuse not to do it. Leon's sessions got me interested again. His holistic approach to my overall wellbeing has motivated me to go to the gym on the off days and tailored my diet and regime to meet my individual needs. For anyone who works long hours but wants better work/life balance I would certainly recommend one-to-one sessions with Leon. </p>
+        <p class="attribution">Alex Walsh - Macquarie Bank</p>
+        </div>
+ 		<div class="qmT2"><p>”</p></div>
+    </div>
+     <div class="tContainer">
+       	<div class="qmT1"><p>“</p></div>
+        <div class="tQuote"><p class="tQuoteP">Whenever I am in London I love training at The Champion Effect. The trainers are fantastic and you are guaranteed a great work-out every session. </p>
+        <p class="attribution">Natalie Imbruglia- Singer/Actress</p>
+        </div>
+ 		<div class="qmT2"><p>”</p></div>
+    </div>
+        <div class="tContainer">
+       	<div class="qmT1"><p>“</p></div>
+        <div class="tQuote"><p class="tQuoteP" >Been training with Leon for over two years now and what I like is the variety of training, from cardio to strength, all linked. Leon is great for understanding your needs, building confidence, and getting the right results.</p>
+        <p class="attribution">Duncan Souness - Macquarie Bank</p>
+        </div>
+ 		<div class="qmT2"><p>”</p></div>
+    </div>
+        <div class="tContainer">
+       	<div class="qmT1"><p>“</p></div>
+        <div class="tQuote"><p class="tQuoteP">I never feel more awesome than when I am smashing workouts with Leon.</p>
+        <p class="attribution">Nicolas Montgomery - Managing Director - The Seaport group</p>
+        </div>
+ 		<div class="qmT2"><p>”</p></div>
+    </div> 
+    <div class="tContainer">
+       	<div class="qmT1"><p>“</p></div>
+        <div class="tQuote"><p class="tQuoteP">Been training with Leon for over two years, I love my sessions - he has helped me discover a body and strength I never knew I had.</p>
+        <p class="attribution">Sarah Gharu - The Seaport group</p>
+        </div>
+ 		<div class="qmT2"><p>”</p></div>
+    </div> 
+    <div class="tContainer">
+       	<div class="qmT1"><p>“</p></div>
+        <div class="tQuote"><p class="tQuoteP">Leon has been outstanding in getting me into shape and into the ring. No mean feat given the shape I was in. I’d thoroughly recommend him to anyone serious about losing weight, getting fit or taking things further and boxing properly - it has been a great few months.</p>
+        <p class="attribution">Mike Keane - Division Director</p>
+        </div>
+ 		<div class="qmT2"><p>”</p></div>
+    </div>
+        <div class="tContainer">
+       	<div class="qmT1"><p>“</p></div>
+        <div class="tQuote"><p class="tQuoteP">Leon's approach is high energy and his sessions are always fun, no matter how hard they get! Leon has never taken a 'cookie-cutter' approach to my training, but always personalises each session to what works best for me. Leon always pushes you to produce your best, but he also applies some 'common sense' to your training, he won't blindly make you do 'ten reps' of something, when it’s clear that you're working as hard as possible and can only do six. Leon recently motivated me to step into the boxing ring for a white-collar boxing fight. He trained me every step of the way - physically, technically and mentally. I've never been in better shape. What a great experience!  I've trained with Leon for nearly five years now, and have referred many friends to him, as he's got to be one of the best personal trainers out there.</p>
+        <p class="attribution">Sam Catalano - Nomura</p>
+        </div>
+ 		<div class="qmT2"><p>”</p></div>
+    </div>
+        <div class="tContainer">
+       	<div class="qmT1"><p>“</p></div>
+        <div class="tQuote"><p class="tQuoteP">Training with Leon for the last two years has been fantastic - his attention to detail, knowledge and enthusiasm is first class. He got me in the best shape of my life whilst creating a programme that also stabilised a long standing back injury. You can’t really ask for more. It’s just a shame he is an Arsenal fan, but I guess you can’t have everything.</p>
+        <p class="attribution">James Elliott - Managing Director,Kentaro ltd</p>
+        </div>
+ 		<div class="qmT2"><p>”</p></div>
+    </div>
+
+    <div class="tContainer">
+       	<div class="qmT1"><p>“</p></div>
+        <div class="tQuote"><p class="tQuoteP">Three things make Leon unique vs other trainers I've used. Firstly his broad and comprehensive knowledge of several different types of training (which he is frequently doing courses to keep his knowledge up to date).Secondly, his ability to adapt and mold sessions to every individuals needs and goals. Finally, Leon's personal experience in sport, and continued intense training he puts himself through. This, combined with the constant courses on training and nutrition that he does, gives me comfort that you are being trained by someone know knows what they are talking about, and also knows what you are going through during and post the sessions. 
+ </p>
+        <p class="attribution">Dave Millhouse - Religare</p>
+        </div>
+ 		<div class="qmT2"><p>”</p></div>
+    </div>
+
+
+
+    </div>  
+<div id="getInTouch">
+    	<h2>GET IN TOUCH</h2>
+            <p>Leon Kew</p>
+            <p>0789898862435</p>
+            <p>leon@kewperformance.co.uk</p>
+       	<div id="eLink">
+		        <div id="eLink2"><p><a href="https://en-gb.facebook.com/"><img src="/Content/img/fb.png" alt="Faceboook" /></a><a href="https://twitter.com/leonkew85"><img src="/Content/img/twitter.png" alt="Twitter" /></a></p>
+	    </div>
+    </div>
+    <div id="footer">
+        <div id="footerNavigation">
+                    <ul>
+                        <li>@Html.ActionLink("SERVICES","Index","Home")</li>
+                        <li>@Html.ActionLink("BLOG","Blog","Blog")</li>
+                        <li>@Html.ActionLink("TESTIMONIALS","Testimonials","Testimonials")</li>
+                        <li>@Html.ActionLink("CONTACT","Contacts","Contacts")</li>
+                    </ul>
+        </div>
+        <p><a id="bdLink" href="http://www.bendando.com/">Designed by BenDando</a></p>
+    </div>
+</div>
+</body>
+</html>
+
+

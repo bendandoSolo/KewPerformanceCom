@@ -1,0 +1,114 @@
+﻿@{
+    ViewBag.Title = "Leon Kew | Contacts";
+}
+
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Leon Kew | Contacts</title>
+<meta name="description" content="Kew Performance. Leon Kew is a proffessional Personal Trainer. Leon Kew offers a range of services including personal trianing, group training and boxing training" />
+<link href="@Url.Content("~/Content/css/boilerplate.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/css/layout.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/css/style.css")" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="@Url.Content("~/Content/css/flexslider.css")" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/MyFontsWebfontsKit.css")" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="@Url.Content("~/Scripts/respond.min.js")" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">      window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+<script defer src="@Url.Content("~/Scripts/jquery.flexslider.js")" type="text/javascript"></script> 
+<script  src="@Url.Content("~/Scripts/OurJScript.js")" type="text/javascript"></script>
+</head>
+<body>
+<div class="gridContainer clearfix">
+	<div id="header"> 
+    	<h1>LEON KEW</h1>
+    	<h2>PERSONAL TRAINER AND CONDITIONING COACH</h2>
+    </div>
+	<div id="navigation">
+		<ul>
+			 <li>@Html.ActionLink("SERVICES","Index","Home")</li>
+            <li>@Html.ActionLink("BLOG","Blog","Blog")</li>
+            <li>@Html.ActionLink("TESTIMONIALS","Testimonials","Testimonials")</li>
+            <li>@Html.ActionLink("CONTACT","Contacts","Contacts")</li>
+		</ul>
+    </div>
+    <div id="dropDownNavigation">    	
+    	<button class="nav-button">MENU</button>
+		<ul class="primary-nav">
+			 <li>@Html.ActionLink("SERVICES","Index","Home")</li>
+            <li>@Html.ActionLink("BLOG","Blog","Blog")</li>
+            <li>@Html.ActionLink("TESTIMONIALS","Testimonials","Testimonials")</li>
+		</ul>
+    </div>
+    	<div id="bookNow2">
+		<div id="bnh1"><h2 class="bookNowH">BOOK YOUR FREE</h2></div>
+        <div id="bnh2"><h2 class="bookNowH">CONSULTATION TODAY!</h2></div>
+        <div id="bnText">
+    	<p>At Kew performance we take a holistic approach to training our clients. We will start with a consultation to determine goals, exercise history and current physical condition. Get in touch to book your free consultation today.</p>
+        <p class="findOutMoreP" ><a href="mailto:leon@kewperformance.co.uk" class="bookNow">BOOK NOW <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /></a> </p> 
+    	</div>
+    </div>
+    <div id="contactWrapper">
+    <div id="contactHeader">
+    	<h2>CONTACT LEON</h2>
+    </div>
+	<div id="contactLeon">
+        <div id="leonDetails">
+        	<p>Leon Kew</p>
+            <p>Tel -  0789898862435</p>
+            <p>email - leon@kewperformance.co.uk</p>            
+        </div>
+	</div>
+	<div id="facilitiesHeader">
+    	<h2>TRAINING FACILITIES</h2>
+    </div>
+    <div id="tLocation1">
+        <p>Club 51</p>
+        <p>51 New Cavendish st</p>
+		<p>London</p>
+		<p>W1G 9TG</p>
+        <p class="map"><a href="https://maps.google.co.uk/maps?q=Club+51++51+New+Cavendish+st++London++W1G+9TG&hl=en&sll=51.514481,-0.092681&sspn=0.002754,0.006968&hq=Club&hnear=51+New+Cavendish+St,+London+W1G+9TG,+United+Kingdom&t=m&fll=51.519232,-0.148385&fspn=0.002754,0.006968&z=18&iwloc=A" class="mapLink">VIEW MAP</a></p>
+	</div>
+        <div id="tLocation2">
+             <p>City Athletic</p>
+			<p>6 Trump street</p>
+			<p>London</p>
+			<p>EC2V 8AF</p>
+            <p class="map"><a href="https://maps.google.co.uk/maps?q=City+Athletic++6+Trump+street++London++EC2V+8AF&hl=en&ll=51.514481,-0.092681&spn=0.002754,0.006968&sll=51.51449,-0.092453&sspn=0.001377,0.003484&t=m&z=18" class="mapLink">VIEW MAP</a></p>
+        </div>
+ 	</div>   
+	<div id="getInTouch">
+    	<h2>GET IN TOUCH</h2>
+            <p>Leon Kew</p>
+            <p>0789898862435</p>
+            <p>leon@kewperformance.co.uk</p>
+       	<div id="eLink">
+		        <div id="eLink2"><p><a href="https://en-gb.facebook.com/"><img src="/Content/img/fb.png" alt="Faceboook" /></a><a href="https://twitter.com/leonkew85"><img src="/Content/img/twitter.png" alt="Twitter" /></a></p>
+     </div>
+ </div>
+    </div>
+    <div id="footer">
+        <div id="footerNavigation">
+                    <ul>
+                        <li>@Html.ActionLink("SERVICES","Index","Home")</li>
+                        <li>@Html.ActionLink("BLOG","Blog","Blog")</li>
+                        <li>@Html.ActionLink("TESTIMONIALS","Testimonials","Testimonials")</li>
+                        <li>@Html.ActionLink("CONTACT","Contacts","Contacts")</li>
+                    </ul>
+        </div>
+        <p><a id="bdLink" href="http://www.bendando.com/">Designed by BenDando</a></p>
+    </div>
+</div>
+</body>
+</html>
+

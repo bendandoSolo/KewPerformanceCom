@@ -1,0 +1,219 @@
+﻿@{
+    ViewBag.Title = "Leon Kew | Home";
+}
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+<title>Leon Kew | Home</title>
+<meta name="description" content="Kew Performance. Leon Kew is a professional Personal Trainer. Leon Kew offers a range of services including personal trianing, group training and boxing training" />
+<link href="@Url.Content("~/Content/css/boilerplate.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/css/layout.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/Content/css/style.css")" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="@Url.Content("~/Content/css/flexslider.css")" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="@Url.Content("~/Content/MyFontsWebfontsKit.css")" />
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="@Url.Content("~/Scripts/respond.min.js")" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">      window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+<script defer src="@Url.Content("~/Scripts/jquery.flexslider.js")" type="text/javascript"></script>
+<script  src="@Url.Content("~/Scripts/OurJScript.js")" type="text/javascript"></script>
+</head>
+<body class="loading">
+<div class="gridContainer clearfix">
+	<div id="header"> 
+    	<h1>LEON KEW</h1>
+    	<h2>PERSONAL TRAINER AND CONDITIONING COACH</h2>
+    </div>
+	<div id="navigation">
+		<ul>
+            <li>@Html.ActionLink("SERVICES","Index","Home")</li>
+            <li>@Html.ActionLink("BLOG","Blog","Blog")</li>
+            <li>@Html.ActionLink("TESTIMONIALS","Testimonials","Testimonials")</li>
+            <li>@Html.ActionLink("CONTACT","Contacts","Contacts")</li>
+        </ul>
+    </div>
+    <div id="dropDownNavigation">    	
+    	<button class="nav-button">MENU</button>
+		<ul class="primary-nav">
+            <li>@Html.ActionLink("BLOG","Blog","Blog")</li>
+            <li>@Html.ActionLink("TESTIMONIALS","Testimonials","Testimonials")</li>
+            <li>@Html.ActionLink("CONTACT","Contacts","Contacts")</li>
+		</ul>
+    </div>
+    <div id="iCarouselM"><img src="/Content/img/TopCarImg/4.JPG" alt="Image of Leon Kew, Personal Trainer"/></div>
+	<div id="iCarousel"> 
+         <div class="flexslider" >
+          <ul class="slides">
+            <li>
+  	    	    <img src="/Content/img/TopCarImg/1.JPG" alt="Image of Leon Kew, Personal Trainer"/>
+  	    		</li>
+  	    		<li>
+  	    	    <img src="/Content/img/TopCarImg/2.JPG"  alt="Image of Leon Kew Training"/>
+  	    		</li>
+  	    		<li>
+  	    	    <img src="/Content/img/TopCarImg/3.JPG"  alt="Image of Leon Kew Training" />
+  	    		</li>
+          </ul>
+        </div>
+	</div>
+	<div id="bookNow">
+		<div id="bnh1"><h2 class="bookNowH">BOOK YOUR FREE</h2></div>
+        <div id="bnh2"><h2 class="bookNowH">CONSULTATION TODAY!</h2></div>
+        <div id="bnText">
+    	<p>At Kew Performance we take a holistic approach to training our clients. We will start with a consultation to determine goals, exercise history and current physical condition.</p>
+       <p class="findOutMoreP" ><a href="mailto:leon@kewperformance.co.uk" class="bookNow">BOOK NOW <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /></a> </p> 
+    	</div>
+    </div>
+    <div id="about">
+        <h2>ABOUT LEON KEW</h2>
+        <div class="abText">
+        	<p>Leon Kew has dedicated his career to the sports and training market - with ten years experience working as a coach and trainer Leon brings a wealth of knowledge and positive energy to the fitness industry. Leon have worked as a personal trainer and strength coach with many different clients including athletes, celebrities and professionals. Leon offers a range of services from one-to-one coaching, boxing specific training and group based training. Leon's approach uses the vehicle of training and fitness to help clients improve their physical and mental well being to become more successful at what they do. Leon trains clients at two locations in the city of London and his work has been featured in GQ Magazine.</p>  
+        	<p class="findOutMoreP" id="moreLeonButton" ><a href="#" class="findOutMore" id="moreLeon" >FIND OUT MORE<img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /> </a></p>
+        </div>
+    </div>
+    <div id="about2">
+    	<div class="abText">
+        	<p>In Leon's early years he played development football at one of England’s top football academies and worked for a number of years mentoring young football players around London. Leon is a qualified TFW level 1 coach. Leon is currently studying with the UKSCA to become a full accredited strength and conditioning coach and and will complete his TFW level 2 later in the year. Leon's training style is focused on getting people stronger and faster. He likes to use concepts of traditional Olympic lifting and resistance training to help people build muscle, lose body fat and feel great about themselves.</p> 
+            <p class="findOutMoreP"><a href="#" class="findOutMore" id="lessLeon" >CLOSE <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /></a></p>    
+        </div>
+    </div>
+<div id="services">
+   		<h2 class="servicesHeader">SERVICES</h2>
+		<div id="pTraining">         	
+            <figure class="servicesImg">
+            	<p> <img src="/Content/img/pt.jpg" alt="Image of Leon Kew - Personal Training" /></p> 
+            </figure>
+			<h3>PERSONAL TRAINING</h3>
+        	<p>At Kew Performance Leon Kew takes a holistic approach to training his clients. Leon will start with a consultation to determine goals, exercise history and current physical condition and then create a plan to suit you.</p>
+	      	<p class="findOutMoreMobile" id="morePtrainingMobileP" ><a href="#" class="findOutMore" id="morePtrainingMobile">FIND OUT MORE <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /> </a></p>
+	  
+    	</div>
+		<div id="pTraining2">
+        	<p>From the evaluation Leon will create a plan that encompasses warm-ups, strength work, speed training, endurance and nutrition. Whether your goal is to de-stress, build some lean muscle, get strong or lose some body fat Leon will create a bespoke plan to help set you on the way to achieving your goals.</p>
+               <p class="findOutMoreMobile"><a href="#" class="findOutMore" id="lessPtrainingMobile">CLOSE <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /></a></p>
+ 
+        </div>
+		<div id="bTraining"> 
+            <figure class="servicesImg"> <p> <img src="/Content/img/boxing2.jpg" alt="Image of Leon Kew - Boxing Training" /></p> 
+            </figure>
+            <h3>BOXING TRAINING</h3>
+            <p>One of Leon Kew's passions is Boxing. It demands unbelievable conditioning levels and mental toughness. One-to-one combat is known to be one of the most difficult athletic pursuits.</p>
+           <p class="findOutMoreMobile" id="moreBtrainingMobileP"><a href="#" class="findOutMore" id="moreBtrainingMobile" >FIND OUT MORE  <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /></a></p> 
+     
+        </div>
+        <div id="bTraining2">
+            <p>Boxing training strengthens the musculoskeletal system, demands extremely high levels of aerobic and anaerobic fitness and improves mental toughness. The majority of sessions will work on two to three minute rounds at about 80-85% of your maximum heart rate - building your lactate threshold with short recovery in between rounds and intervals.</p>
+            <p class="findOutMoreMobile"><a href="#" class="findOutMore" id="lessBtrainingMobile">CLOSE <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /> </a></p> 
+        </div>
+<div id="gTraining">         	
+			<figure class="servicesImg">
+            	<p><img src="/Content/img/group2.jpg" alt="Image of Leon Kew - Group Training" /></p> 
+            </figure>
+            <h3>GROUP TRAINING</h3>
+            <p>Group sessions are a great way to get fired up and motivated to train. Sessions combine a mixture of hard cardio and strength work, effectively helping the body to burn body fat and build lean muscle. </p>
+         	<p class="findOutMoreMobile" id="moreGtrainingMobileP" ><a href="#" class="findOutMore" id="moreGtrainingMobile" >FIND OUT MORE  <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /></a></p>
+        </div>
+        <div id="gTraining2">
+            <p>A typical group session will be organised into a circuit to target different parts of the body and also hit different energy systems. Consistency is key to achieving results and getting the body you want so if you are on a budget but want to fit in two to three sessions a week with a trainer then group training is the answer. </p>
+             	<p class="findOutMoreMobile"><a href="#" class="findOutMore" id="lessGtrainingMobile">CLOSE  <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /></a></p>  
+        </div>       
+        <div id="linksBar">
+            <div id="linksBar1">
+            	<p class="findOutMoreP"><a href="#" class="findOutMore" id="morePtrainingPC">FIND OUT MORE  <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /></a></p>
+            </div>
+            <div id="linksBar2">
+            	<p class="findOutMoreP"><a href="#" class="findOutMore" id="moreBtrainingPC">FIND OUT MORE <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /></a></p>
+            </div>
+            <div id="linksBar3">
+            	<p class="findOutMoreP"><a href="#" class="findOutMore" id="moreGtrainingPC">FIND OUT MORE <img class="triangle" src="/Content/img/triangle.png" alt="Triangle Icon" /> </a></p>
+            </div>
+        </div>
+        <div id="pTraining3">
+			    <h2>PERSONAL TRAINING</h2>
+            <div class="t3Img"><img src="/content/img/pt.jpg" alt="Image of Leon Kew - Personal Training"/></div>
+            <div class="t3Txt">
+                    <p>At Kew performance Leon Kew takes a holistic approach to training his clients. Leon will start with a consultation to determine goals, exercise history and current physical condition and then create a plan to suit you.</p>
+                    <p>From the evaluation Leon will create a plan that encompasses warm-ups, strength work, speed training, endurance and Nutrition. Whether your goal is to de- stress, build some lean muscle, get strong or lose some body fat Leon will create a bespoke plan to help set you on the way to achieving your goals.</p></div>
+			<div class="t3Back">   <p class="findOutMoreP"><a href="#" class="findOutMore" id="lessPtrainingPC">CLOSE <img class="triangle" src="/content/img/triangle.png" alt="Triangle Icon"/> </a></p></div>
+        </div>
+        <div id="bTraining3">
+                <h2>BOXING TRAINING</h2>
+            <div class="t3Img"><img src="/content/img/boxing2.jpg" alt="Image of Leon Kew - Boxing Training"/></div>
+            <div class="t3Txt">
+                 <p>One of my passions is Boxing.It demands unbelievable conditioning levels and mental toughness. One to one combat is known to be one of the most difficult athletic pursuits.</p>
+                 <p>Boxing training strengthens the musculoskeletal system, demands extremely high levels of aerobic and anaerobic fitness and improves mental toughness. The majority of sessions will work on 2-3 minute rounds at about 80-85% of you maximum heart rate building your lactate threshold with short recovery in between rounds and intervals.</p>
+            </div>            
+           <div class="t3Back"> <p class="findOutMoreP"><a href="#" class="findOutMore" id="lessBtrainingPC">CLOSE<img class="triangle" src="/content/img/triangle.png" alt="Triangle Icon"/></a></p> </div>      
+        </div>       
+       <div id="gTraining3">
+                <h2>GROUP TRAINING</h2>
+            <div class="t3Img"><img src="/content/img/group2.jpg" alt="Image of Leon Kew - Group Training"/></div>         
+            <div class="t3Txt">        
+                <p>Group sessions are a great way to get fired up and motivated to train. Sessions combine a mixture of hard cardio and strength work effectively helping the body to burn body fat and build lean muscle. A typical group session will be organised into a circuit to target different parts of the body and also hit different energy systems.  </p>
+                <p>Consistency is key to achieving results and getting the body you want so if you are on a budget but want to fit in two  to three sessions a week with a trainer then group training is the answer.</p>
+            </div>
+            <div class="t3Back"><p class="findOutMoreP"><a href="#" class="findOutMore" id="lessGtrainingPC">CLOSE<img class="triangle" src="/content/img/triangle.png" alt="Triangle Icon"/></a></p></div>
+        </div>
+</div>
+<div id="tCarousel">
+      <h2>TESTIMONIALS</h2>
+	  <div id="Hcarousel">
+               <div class="flexslider" >
+          <ul class="slides">
+            <li>
+  	    	    <img src="/Content/img/BottomCarImg/testM1.jpg" alt="Image of client testimonial on Leon Kew, Personal Trainer"/>
+  	    		</li>
+  	    		<li>
+  	    	    <img src="/Content/img/BottomCarImg/testM2.jpg" alt="Image of client testimonial on Leon Kew, Personal Trainer"/>
+  	    		</li>
+  	    		<li>
+  	    	    <img src="/Content/img/BottomCarImg/testM3.jpg" alt="Image of client testimonial on Leon Kew, Personal Trainer"/>
+  	    		</li>
+          </ul>
+        </div>
+    </div>
+        <div id="tmContainer">
+        	<div id="qM1"><p>“</p></div>
+            <div id="qMobile">
+            <p class="testimonialMobile">Been training with Leon for over two years now and what I like is the variety of training, from cardio to strength, all linked. Leon is great for understanding your needs, building confidence, and getting the right results. </p>
+            <p class="attributionMobile">Duncan Souness - Macquarie Bank</p>
+            </div>
+			<div id="qM2"><p>”</p></div>
+        </div>
+<div id="linksBar4"><p class="findOutMoreP">
+<a class="ourSuccess" href="@Url.Action("Testimonials", "Testimonials")">READ ABOUT OUR SUCCESS<img class="triangle" src="@Url.Content("/content/img/triangle.png")" alt="Link to Testimonials Page"/></a>
+</p>
+    </div>
+    </div>
+    <div id="getInTouch">
+    	<h2>GET IN TOUCH</h2>
+            <p>Leon Kew</p>
+            <p>0789898862435</p>
+            <p>leon@kewperformance.co.uk</p>
+       	<div id="eLink">
+		    <div id="eLink2"><p><a href="https://en-gb.facebook.com/"><img src="/Content/img/fb.png" alt="Faceboook" /></a><a href="https://twitter.com/leonkew85"><img src="/Content/img/twitter.png" alt="Twitter" /></a></p>
+	    </div>
+    </div>
+    <div id="footer">
+        <div id="footerNavigation">
+                    <ul>
+                         <li>@Html.ActionLink("SERVICES","Index","Home")</li>
+                         <li>@Html.ActionLink("BLOG","Blog","Blog")</li>
+                         <li>@Html.ActionLink("TESTIMONIALS","Testimonials","Testimonials")</li>
+                         <li>@Html.ActionLink("CONTACT","Contacts","Contacts")</li>
+                    </ul>
+        </div>
+        <p><a id="bdLink" href="http://www.bendando.com/">Designed by BenDando</a></p>
+    </div>
+</div>
+</body>
+</html>
